@@ -1,0 +1,375 @@
+<html>
+<head>
+<title>IIT (ISM), DHANBAD | INDIAN INSTITUTE OF TECHNOLOGY (INDIAN SCHOOL OF MINES), DHANBAD</title>
+<link rel="icon" type="image/ico" href="https://www.iitism.ac.in/assets/img/logo.png"/>
+<style>
+
+.headerBlock {background-color:#151B54;font-family: arial;overflow:auto;}
+
+.upperNav {float:right;font-size:12px;font-family: arial;}
+.upperNav a:link {color:#151B54;background-color:#D3D3D3;text-decoration: none;}
+.upperNav a:visited {color:#151B54;background-color:#D3D3D3;text-decoration: none;}
+.upperNav a:hover {color: #D3D3D3;background-color: transparent;text-decoration: underline;}
+.upperNav a:active {color: red;background-color: transparent;text-decoration: underline;}
+.upperNavLink {margin-left:4px;text-align: right;padding-left:4px;padding-bottom:0px;padding-right:2px;padding-top:0px;}
+.headerLogo {padding:20px;}
+
+.insti {font-family: arial;color: white;}
+
+.dropdown {  position: relative;  display: inline-block; background-image:url(photohd.jpg);background-position:center;background-repeat:no-repeat;background-size:cover;height:500px;width:100%;}
+
+.dropbtn-about { background-color: #D3D3D3; color: #151B54; padding: 6px; font-size: 12px; border: none; cursor: pointer;}
+.dropbtn-about:hover {background-color: #151B54;color:#D3D3D3;}
+.dropbtn-about:focus {background-color:#151B54;color:#D3D3D3;}
+.dropdown-content-about {display: none;position: absolute;background-color: #f1f1f1;color:#151B54;font-family:arial;font-size:12px;left:0;min-width:100px;overflow:auto;box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);z-index:1;}
+.dropdown-content-about a:hover {background-color:#D3D3D3;}
+.dropdown-content-about a { color: #151B54; padding: 8px; text-decoration: none; display: block;}
+
+.dropbtn-administration { background-color: #D3D3D3; color: #151B54; padding: 6px; font-size: 12px; border: none; cursor: pointer;}
+.dropbtn-administration:hover {background-color: #151B54;color:#D3D3D3;}
+.dropbtn-administration:focus {background-color:#151B54;color:#D3D3D3;}
+.dropdown-content-administration {display: none;position: absolute;background-color: #f1f1f1;color:#151B54;font-family:arial;font-size:12px;left:60;min-width:100px;overflow:auto;box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);z-index:1;}
+.dropdown-content-administration a:hover {background-color:#D3D3D3;}
+.dropdown-content-administration a { color: #151B54; padding: 8px; text-decoration: none; display: block;}
+
+.dropbtn-academics { background-color: #D3D3D3; color: #151B54; padding: 6px; font-size: 12px; border: none; cursor: pointer;}
+.dropbtn-academics:hover {background-color: #151B54;color:#D3D3D3;}
+.dropbtn-academics:focus {background-color:#151B54;color:#D3D3D3;}
+.dropdown-content-academics {display: none;position: absolute;background-color: #f1f1f1;color:#151B54;font-family:arial;font-size:12px;left:170;min-width:100px;overflow:auto;box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);z-index:1;}
+.dropdown-content-academics a:hover {background-color:#D3D3D3;}
+.dropdown-content-academics a { color: #151B54; padding: 8px; text-decoration: none; display: block;}
+
+.dropbtn-admissions { background-color: #D3D3D3; color: #151B54; padding: 6px; font-size: 12px; border: none; cursor: pointer;}
+.dropbtn-admissions:hover {background-color: #151B54;color:#D3D3D3;}
+.dropbtn-admissions:focus {background-color:#151B54;color:#D3D3D3;}
+.dropdown-content-admissions {display: none;position: absolute;background-color: #f1f1f1;color:#151B54;font-family:arial;font-size:12px;left:260;min-width:100px;overflow:auto;box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);z-index:1;}
+.dropdown-content-admissions a:hover {background-color:#D3D3D3;}
+.dropdown-content-admissions a { color: #151B54; padding: 8px; text-decoration: none; display: block;}
+
+.dropbtn-people { background-color: #D3D3D3; color: #151B54; padding: 6px; font-size: 12px; border: none; cursor: pointer;}
+.dropbtn-people:hover {background-color: #151B54;color:#D3D3D3;}
+.dropbtn-people:focus {background-color:#151B54;color:#D3D3D3;}
+.dropdown-content-people {display: none;position: absolute;background-color: #f1f1f1;color:#151B54;font-family:arial;font-size:12px;left:350;min-width:100px;overflow:auto;box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);z-index:1;}
+.dropdown-content-people a:hover {background-color:#D3D3D3;}
+.dropdown-content-people a { color: #151B54; padding: 8px; text-decoration: none; display: block;}
+
+.dropbtn-initiatives { background-color: #D3D3D3; color: #151B54; padding: 6px; font-size: 12px; border: none; cursor: pointer;}
+.dropbtn-initiatives:hover {background-color: #151B54;color:#D3D3D3;}
+.dropbtn-initiatives:focus {background-color:#151B54;color:#D3D3D3;}
+.dropdown-content-initiatives {display: none;position: absolute;background-color: #f1f1f1;color:#151B54;font-family:arial;font-size:12px;left:415;min-width:100px;overflow:auto;box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);z-index:1;}
+.dropdown-content-initiatives a:hover {background-color:#D3D3D3;}
+.dropdown-content-initiatives a { color: #151B54; padding: 8px; text-decoration: none; display: block;}
+
+.dropbtn-research { background-color: #D3D3D3; color: #151B54; padding: 6px; font-size: 12px; border: none; cursor: pointer;}
+.dropbtn-research:hover {background-color: #151B54;color:#D3D3D3;}
+.dropbtn-research:focus {background-color:#151B54;color:#D3D3D3;}
+.dropdown-content-research {display: none;position: absolute;background-color: #f1f1f1;color:#151B54;font-family:arial;font-size:12px;left:430;min-width:100px;overflow:auto;box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);z-index:1;}
+.dropdown-content-research a:hover {background-color:#D3D3D3;}
+.dropdown-content-research a { color: #151B54; padding: 8px; text-decoration: none; display: block;}
+
+.show {display: block;}
+
+</style>
+
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunctionAbout() {
+  document.getElementById("myDropdownAbout").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn-about')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content-about");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+} 
+
+function myFunctionAdministration() {
+  document.getElementById("myDropdownAdministration").classList.toggle("show");
+}
+
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn-administration')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content-administration");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+
+function myFunctionAcademics() {
+  document.getElementById("myDropdownAcademics").classList.toggle("show");
+}
+
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn-academics')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content-academics");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+function myFunctionAdmissions() {
+  document.getElementById("myDropdownAdmissions").classList.toggle("show");
+}
+
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn-admissions')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content-admissions");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+function myFunctionPeople() {
+  document.getElementById("myDropdownPeople").classList.toggle("show");
+}
+
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn-people')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content-people");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+
+function myFunctionInitiatives() {
+  document.getElementById("myDropdownIntiatives").classList.toggle("show");
+}
+
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn-initiatives')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content-initiatives");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+function myFunctionResearch() {
+  document.getElementById("myDropdownResearch").classList.toggle("show");
+}
+
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn-research')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content-research");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+
+</script>
+</head>
+<body>
+
+<div class="headerBlock" id="upper-header">
+<div class="upperNav">
+     <a href="https://www.iitism.ac.in/index.php/notice" class="upperNavLink">
+	    <b>NOTICES</b>
+	 </a>
+              
+     <a href="https://mis.iitism.ac.in/" target="_blank" class="upperNavLink"><b>MIS</b></a>
+                
+     <a href="http://mail.iitism.ac.in/" target="_blank" class="upperNavLink"><b>SIGN IN</b></a>
+</div>
+		   <div class="headerLogo">
+           <a href="https://www.iitism.ac.in/" style="float:left">
+		   <img id="logo" src="https://www.iitism.ac.in/assets/img/logo.png" alt="logo"style="width:100px;height:100px">
+		   </a>
+		   <br>
+          <span class="insti" style="font-size:110%">INDIAN&nbsp;INSTITUTE&nbsp;OF&nbsp;TECHNOLOGY&nbsp;(INDIAN&nbsp;SCHOOL&nbsp;OF&nbsp;MINES), DHANBAD</span>
+		  <br>
+		  <span class="insti" style="font-size:100%"> भारतीय&nbsp;प्रौद्योगिकी&nbsp;संस्थान&nbsp;(भारतीय&nbsp;खनि&nbsp;विद्यापीठ), धनबाद</span>          
+		  </div>
+		  
+</div>
+
+	<div class="dropdown">
+         <button onclick="myFunctionAbout()" class="dropbtn-about"><b>ABOUT</b></button>
+         <div id="myDropdownAbout" class="dropdown-content-about">
+             <a href="https://www.iitism.ac.in/index.php/the_institute/about_ISM" target="_blank">Overview</a>
+             <a href="https://www.iitism.ac.in/index.php/the_institute/institute_crest" target="_blank">Institute Crest</a>
+             <a href="https://www.iitism.ac.in/pdfs/institute/Asset.pdf" target="_blank">Assets</a>
+			 <a href="https://www.iitism.ac.in/index.php/the_institute/vision_mission" target="_blank">Vision & Mission</a>
+			 <a href="https://www.iitism.ac.in/uploads/news_events/admin/IITISM-STATUTES.pdf" target="_blank">Statute of IIT(ISM)</a>
+         </div>
+		 <button onclick="myFunctionAdministration()" class="dropbtn-administration"><b>ADMINITRATION</b></button>
+         <div id="myDropdownAdministration" class="dropdown-content-administration">
+		     <a href="https://www.iitism.ac.in/pdfs/bog.pdf" target="_blank">Body of Governors</a>
+			 <a href="https://www.iitism.ac.in/pdfs/fc.pdf" target="_blank">Finance committee</a>
+             <a href="https://www.iitism.ac.in/index.php/academic_adminstration/chairman" target="_blank">Chairman</a>
+             <a href="https://www.iitism.ac.in/index.php/academic_adminstration/director" target="_blank">Director</a>
+             <a href="https://www.iitism.ac.in/index.php/academic_adminstration/deputydirector" target="_blank">Deputy Director</a>
+             <a href="https://www.iitism.ac.in/index.php/Home/dep" target="_blank">HODs</a>
+             <a href="https://www.iitism.ac.in/index.php/academic_adminstration/pce" target="_blank">PCE</a>
+             <a href="https://www.iitism.ac.in/pdfs/hostel/warden.pdf" target="_blank">Hostel Administration</a>             
+         </div>
+         <button onclick="myFunctionAcademics()" class="dropbtn-academics"><b>ACADEMICS</b></button>
+         <div id="myDropdownAcademics" class="dropdown-content-academics">
+             <a href="https://www.iitism.ac.in/index.php/Home/dep" target="_blank">Departments and Centers</a>
+             <a href="https://www.iitism.ac.in/pdfs/dean/acad.pdf" target="_blank">Dean & Associate Deans</a>
+			 <a href="https://www.iitism.ac.in/pdfs/academics/senate-members.pdf" target="_blank">Senate Members</a>
+			 <a href="https://www.iitism.ac.in/pdfs/academics/AC.pdf" target="_blank">Academic Calender</a>
+			 <a href="https://www.iitism.ac.in/index.php/links/sports" target="_blank">Sports</a>
+			 <a href="http://www.iitismlib.ac.in/" target="_blank">Central Library</a>
+			 <a href="https://www.iitism.ac.in/pdfs/DSC.pdf" target="_blank">D.Sc Awarded</a>
+			 <a href="https://www.iitism.ac.in/pdfs/PHD.pdf" target="_blank">Ph.D Awarded</a>
+			 <a href="https://www.iitism.ac.in/index.php/academics/convocation" target="_blank">Convocation</a>
+			 <a href="https://www.iitism.ac.in/index.php/links/rules" target="_blank">Forms & Rules (Student)</a>
+         </div>
+		  <button onclick="myFunctionAdmissions()" class="dropbtn-admissions"><b>ADMISSIONS</b></button>
+         <div id="myDropdownAdmissions" class="dropdown-content-admissions">
+		     <a href="https://www.iitism.ac.in/index.php/admission/jee_students" target="_blank">JEE (Advanced)</a>
+             <a href="https://www.iitism.ac.in/pdfs/admission/foreign_students.pdf" target="_blank">Foriegn Students</a>
+             <a href="https://www.iitism.ac.in/index.php/admission/mtech" target="_blank">M.Tech.</a>
+             <a href="https://www.iitism.ac.in/index.php/admission/msc" target="_blank">M.Sc.</a>
+             <a href="https://www.iitism.ac.in/index.php/admission/msc_tech" target="_blank">M.Sc. Tech.</a>
+             <a href="https://www.iitism.ac.in/index.php/admission/mba" target="_blank">MBA</a>
+             <a href="https://www.iitism.ac.in/index.php/admission/phd" target="_blank">Ph.D.</a>
+             <a href="https://www.iitism.ac.in/pdfs/admission/Fee_Structure.pdf" target="_blank">Fee Structure</a>
+             
+         </div>
+         <button onclick="myFunctionPeople()" class="dropbtn-people"><b>PEOPLE</b></button>
+         <div id="myDropdownPeople" class="dropdown-content-people">
+		     <a href="https://www.iitism.ac.in/iraa/" target="_blank">International Relatons & Alumni Affairs</a>
+             <a href="https://www.iitism.ac.in/index.php/faculty_members" target="_blank">Faculty</a>
+			 <a href="https://www.iitism.ac.in/index.php/campuslife/camplife" target="_blank">Students(Campus Life)</a>
+         </div>
+         <button onclick="myFunctionInitiatives()" class="dropbtn-initiatives"><b>INITIATIVES</b></button>
+         <div id="myDropdownIntiatives" class="dropdown-content-initiatives">
+             <a href="https://www.iitism.ac.in/iraa/societalmissions.php" target="_blank">Societal Missions</a>             
+		     <a href="https://www.iitism.ac.in/iraa/ciie_new.php" target="_blank">Innovation & Incubation</a>
+         </div>
+         <button onclick="myFunctionResearch()" class="dropbtn-research"><b>RESEARCH</b></button>
+         <div id="myDropdownResearch" class="dropdown-content-research">
+		     <a href="https://www.iitism.ac.in/pdfs/dean/rnd/Ph.D-Manual.pdf" target="_blank">Ph.D. Manual</a>
+             <a href="https://www.iitism.ac.in/pdfs/dean/rnd/Industry-Connect-program.pdf" target="_blank">Industry Connect program</a>
+             <a href="https://www.iitism.ac.in/crf/" target="_blank">Central Research Facility</a>
+             <a href="https://www.iitism.ac.in/pdfs/dean/rnd/Departmental-Research-and-Research-Facilities.pdf" target="_blank">Department Research Facility</a>
+             <a href="https://www.iitism.ac.in/pdfs/dean/rnd/areas-of-expertize.pdf" target="_blank">Area of Expertise</a>
+             <a href="https://www.iitism.ac.in/index.php/Research_consultancy/documents" target="_blank">Important Forms</a>
+             <a href="https://www.iitism.ac.in/pdfs/patents.pdf" target="_blank">Patents</a>
+         </div>
+
+<div class="col-md-3 events btn btn-info login" style='float:right; margin-right:40px;margin-top:40px; height:340px !important; width:250px;padding: 10px 5px 0px 5px;background-color:rgba(211,211,211,0.8);' id="c_evmore">
+        
+            <center><h4 style="font-size: 22px;font-family:arial;color:#151B54;margin:20px !important;">Quick&nbsp;Links&nbsp;
+			</h4></center>
+            <hr/>
+        
+            <marquee id="scroll_news" direction="up" scrolldelay="140" style='text-align:center;font-size: 15px;font-weight: 600;height: 240px;'>
+			
+            <!-- Quick Link Second -->            
+            <!--
+            <div  onMouseOver="document.getElementById('scroll_news').stop();" onMouseOut="document.getElementById('scroll_news').start();" style="height:40px;"><span class="fa fa-hand-o-right" style="color:#0A6AB2;"> &nbsp;</span> 
+            <a href="https://www.iitism.ac.in/index.php/administration/team_admin" target="_blank" style="color: #054284;">Administration&nbsp;&nbsp;&nbsp;<img src="https://www.iitism.ac.in/assets/img/new.gif"></a>
+            </div>
+                       
+            <hr/>
+			 -->
+            <!--
+            <div  onMouseOver="document.getElementById('scroll_news').stop();" onMouseOut="document.getElementById('scroll_news').start();" style="height:40px;"><span class="fa fa-hand-o-right" style="color:#0A6AB2;"> &nbsp;</span>
+            <a href="https://www.iitism.ac.in/index.php/administration/about_iitism" target="_blank" style="color: #054284;">About Us&nbsp;&nbsp;&nbsp;<img src="https://www.iitism.ac.in/assets/img/new.gif"></a>
+            </div>
+            
+            <hr/>
+            
+             -->
+            <div onMouseOver="document.getElementById('scroll_news').stop();" onMouseOut="document.getElementById('scroll_news').start();" style="height:40px;"><span class="fa fa-hand-o-right" style="color:#0A6AB2;"> &nbsp;</span>
+             <a href="https://www.iitism.ac.in/index.php/placement_cdc/cdc" target="_blank" style="color: #054284;">Placement (CDC)</a>
+            </div>            
+            <hr/>
+            
+            <div onMouseOver="document.getElementById('scroll_news').stop();" onMouseOut="document.getElementById('scroll_news').start();" style="height:40px;"><span class="fa fa-hand-o-right" style="color:#0A6AB2;"> &nbsp;</span>
+            <a href="https://www.iitism.ac.in/index.php/links/nirf_data_new" target="_blank" style="color: #054284;"> NIRF DATA-2018            </a>
+            </div>            
+            <hr/>
+            
+            <div onMouseOver="document.getElementById('scroll_news').stop();" onMouseOut="document.getElementById('scroll_news').start();" style="height:40px;"><span class="fa fa-hand-o-right" style="color:#0A6AB2;"> &nbsp;</span>
+            <a href="http://cec.nic.in/Pages/Home.aspx" target="_blank" style="color: #054284;">Digital Edu. E-Content</a>
+            </div>
+			<hr/>
+            
+            <div onMouseOver="document.getElementById('scroll_news').stop();" onMouseOut="document.getElementById('scroll_news').start();" style="height:40px;"><span class="fa fa-hand-o-right" style="color:#0A6AB2;"> &nbsp;</span>
+            <a href="https://www.iitism.ac.in/pdfs/sip/sip.pdf" target="_blank" style="color: #054284;">Skill India Programme</a>
+            </div>
+			<hr/>
+            
+            <div onMouseOver="document.getElementById('scroll_news').stop();" onMouseOut="document.getElementById('scroll_news').start();" style="height:40px;"><span class="fa fa-hand-o-right" style="color:#0A6AB2;"> &nbsp;</span>
+            <a href="https://www.iitism.ac.in/index.php/links/ism_opening_main" target="_blank" style="color: #054284;">Recruitments @IITISM</a>
+            </div>           
+            <hr/>
+            
+            <div onMouseOver="document.getElementById('scroll_news').stop();" onMouseOut="document.getElementById('scroll_news').start();" style="height:40px;"><span class="fa fa-hand-o-right" style="color:#0A6AB2;"> &nbsp;</span>
+            <a href="https://www.iitism.ac.in/index.php/tender/tender_login" target="_blank" style="color: #054284;">Tender</a>
+            </div>           
+            <hr/>
+            
+            <div onMouseOver="document.getElementById('scroll_news').stop();" onMouseOut="document.getElementById('scroll_news').start();" style="height:40px;"><span class="fa fa-hand-o-right" style="color:#0A6AB2;"> &nbsp;</span>
+                       
+              <a href="https://www.iitism.ac.in/index.php/links/nirf_data" target="_blank" style="color: #054284;">NIRF DATA (Old)</a>
+            
+            </div>            
+            <hr/>
+            
+            <div onMouseOver="document.getElementById('scroll_news').stop();" onMouseOut="document.getElementById('scroll_news').start();" style="height:40px;"><span class="fa fa-hand-o-right" style="color:#0A6AB2;"> &nbsp;</span>
+           
+            <a href="https://www.iitism.ac.in/index.php/links/banks" target="_blank" style="color: #054284;">On Line Payment Link&nbsp;&nbsp;&nbsp;<span><img src="https://www.iitism.ac.in/assets/img/new.gif"></span></a>
+            </div>
+            <hr/>
+            <!-- 
+            <div onMouseOver="document.getElementById('scroll_news').stop();" onMouseOut="document.getElementById('scroll_news').start();" style="height:40px;"><span class="fa fa-hand-o-right" style="color: #054284;"> &nbsp;</span>
+           
+            
+             <a href="https://www.iitism.ac.in/index.php/convocation/Information_page" target="_blank" style="color: #054284;">Convocation Registration&nbsp;&nbsp;&nbsp;<span><img src="https://www.iitism.ac.in/assets/img/new.gif"></span></a>
+           
+           </div>
+		   -->
+           
+        </marquee>    
+        
+        <a href="https://www.iitism.ac.in/index.php/Home_1/viewalls" style="float:right;padding-right:10px;color:#151B54;font-family:arial;">View All</a>
+			        
+        </div>
+     <div class="intro" style="float:left;background-color:rgba(211,211,211,0.6);height:190px;width:500;padding:20px;margin-top:100px;margin-left:150px;">
+	 <p style="font-size:15px;line-height:1.6;color:#151B54;"><b>…standing tall since early decades of 20th century, the institute is steadily sailing through the 
+	 millennium change and has emerged into one of the most prominent institution- Indian Institute of Technology IIT(ISM) with full bloom functioning of 
+	 18 branches of Engineering, Applied Sciences, Management Studies and Humanities. IIT (ISM) has had a centenary long credentials of outperforming 
+	 achievements/contributions in academia and the industry.</b></p>
+	 </div>
+     </div>
+</body>
+</html>
